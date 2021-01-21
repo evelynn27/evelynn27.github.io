@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: "#2F3437";
+    background-color: #2F3437;
 }
 
 nav ul, footer ul {
@@ -19,6 +19,7 @@ nav ul li, footer ul li {
 a {
     text-decoration: none;
     color: #999;
+    background-color: #2F3437;
 }
 
 a:hover {
