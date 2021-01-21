@@ -1,30 +1,27 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+<a 
+   class="weatherwidget-io" 
+   href="https://forecast7.com/ja/33d16n117d35/carlsbad/?unit=us" 
+   data-label_1="カールスバッド" 
+   data-label_2="天気" 
+   data-font="ヒラギノ角ゴ Pro W3" 
+   data-theme="original" 
+   data-basecolor="#EDA6B4" 
+   data-highcolor="#F9DFDF" 
+   data-lowcolor="#E8F0FA" >カールスバッド 天気
+</a>
+
+<script>
+	!function(d,s,id)
+	{
+		var js,fjs=d.getElementsByTagName(s)[0];
+		if(!d.getElementById(id))
+		{
+			js=d.createElement(s);
+			js.id=id;
+			js.src='https://weatherwidget.io/js/widget.min.js';
+			fjs.parentNode.insertBefore(js,fjs);
+		}
+	}
+	
+	(document,'script','weatherwidget-io-js');
+</script>
